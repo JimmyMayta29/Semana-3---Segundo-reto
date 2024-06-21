@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Muebles</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <header>
-        <h1>TIENDA MUEBLES</h1>
-
+    <header class="header">
+        <h1>Tienda <span class="muebles">Muebles</span></h1>
+        
         <div>
-            <nav>
+            <nav class="navegacion">
                 <ul>
-                    <li><a href="/index.html">inicio</a></li>
-                    <li> <a href="/tienda/nosotros.html">Nosotros</a></li>
-                    <li><a href="/tienda/tienda.html">Tienda</a></li>
-                    <li><a href="/tienda/blog.html">Blog</a></li>
-                    <li><a href="/tienda/galeria.html">Galeria</a></li>
-                    <li><a href="/tienda/contacto.html">Contacto</a></li>
+                    <li>
+                        <a href="/index.html">inicio</a>
+                    </li>
+                    <li> 
+                        <a href="/tienda/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="/tienda/tienda.html">Tienda</a>
+                    </li>
+                    <li>
+                        <a href="/tienda/blog.html">Blog</a></li>
+                    <li>
+                        <a href="/tienda/galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="/tienda/contacto.html">Contacto</a>
+                    </li>
                 </ul>
             </nav>
+            <div class="img">
+                <img src="./img/principal.jpg" alt="">
+            </div>
         </div>
     </header>
     <main>
@@ -30,81 +45,81 @@
 
         <div>
             <div>
-                <img src="/img/categoria1.jpg" alt="">
-                <a href="#">Oficina</a>
+                <img src="/img/categoria1.jpg" alt="categoria 1">
+                <a href="#"><p>Oficina</p></a>
             </div>
             <div>
-                <img src="/img/categoria2.jpg" alt="">
-                <a href="#">Hogar</a>
+                <img src="/img/categoria2.jpg" alt="categoria 2">
+                <a href="#"><p>Hogar</p></a>
             </div>
             <div>
-                <img src="/img/categoria3.jpg" alt="">
-                <a href="#">Cocina</a>
+                <img src="/img/categoria3.jpg" alt="categoria 3">
+                <a href="#"><p>Cocina</p></a>
             </div> 
         </div>
     </section>
     <section>
         <img src="/img/nosotros.jpg" alt="no carga la imagen">
-        <div>
-            <h2>Sobre nosotros</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Quidem fugiat dolor odio dicta, non voluptas eum voluptatum sit illum. <br> Excepturi corrupti nam veniam provident dolorum animi perspiciatis non commodi ducimus!</p>
+        <div class="sobre-nosotros">
+            <h3>Sobre Nosotros</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem fugiat dolor odio dicta, non voluptas eum voluptatum sit illum. Excepturi corrupti nam veniam provident dolorum animi perspiciatis non commodi ducimus!</p>
         </div>
     </section>
     <section>
         <h2>Nuestros Productos</h2>
         <div>
-            <article>
+            <article  class="productos">
                 <img src="/img/producto1.jpg" alt="">
                 <div>
                     <h3>Producto 1</h3>
                     <p>" Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris. "</p>
-                    <p>$1,000,000.00</p>>
-                    <button>AGREGAR AL CARRITO</button>
+                    <p class="monto">$1,000,000.00</p>>
+                    <button class="button">AGREGAR AL CARRITO</button>
                 </div>
             </article>
-            <article>
+            <article class="productos">
                 <img src="/img/producto2.jpg" alt="">
                 <div>
                     <h3>Producto 2</h3>
                     <p>" Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris. "</p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
+                    <p class="monto">$1,000,000.00</p>
+                    <button class="button">AGREGAR AL CARRITO</button>
                 </div>
             </article>
-            <article>
+            <article class="productos">
                 <img src="/img/producto3.jpg" alt="">
                 <div>
                     <h3>Producto 3</h3>
                     <p>" Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris. "</p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
+                    <p class="monto">$1,000,000.00</p>
+                    <button class="button">AGREGAR AL CARRITO</button>
                 </div>
             </article>
-            <article>
+            <article class="productos">
                 <img src="/img/producto4.jpg" alt="">
                 <div>
                     <h3>Producto 4</h3>
                     <p>" Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris. "</p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
+                    <p class="monto">$1,000,000.00</p>
+                    <button class="button">AGREGAR AL CARRITO</button>
                 </div>
             </article>
-            <article>
+            <article class="productos">
                 <img src="/img/producto5.jpg" alt="">
                 <div>
                     <h3>Producto 5</h3>
                     <p>" Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris. "</p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
+                    <p class="monto">$1,000,000.00</p>
+                    <button class="button">AGREGAR AL CARRITO</button>
                 </div>
             </article>
-            <article>
+            <article class="productos">
                 <img src="/img/producto6.jpg" alt="">
                 <div>
                     <h3>Producto 6</h3>
                     <p>" Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris. "</p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
+                    <p class="monto">$1,000,000.00</p>
+                    <button class="button">AGREGAR AL CARRITO</button>
                 </div>
             </article>
         </div>
@@ -146,7 +161,7 @@
                 
             </div>
         </section>
-        <p>Todos los derechos Reservados. TiendaMuebles</p>
+        <p class="derechos">Todos los derechos Reservados. TiendaMuebles</p>
     </footer>
 </body>
 </html>
